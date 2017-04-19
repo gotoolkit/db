@@ -10,7 +10,7 @@ type DBConfig struct {
 	Charset  string
 }
 
-func GetDefaultConfig() *Config {
+func GetDefaultConfig() *DBConfig {
 	return &DBConfig{
 		Dialect:  "mysql",
 		Username: "guest",
